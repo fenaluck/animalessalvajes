@@ -5,7 +5,7 @@ export default class Aguila extends Animal {
     super(
       nombre,
       edad,
-      "assets/imgs/Aguila.jpg",
+      "assets/imgs/Aguila.png",
       comentarios,
       "assets/sounds/Chillido.mp3"
     );

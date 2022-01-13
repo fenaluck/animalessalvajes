@@ -7,7 +7,6 @@ export default class Oso extends Animal {
   gruñir() {
     const player = document.getElementByid('player')
     player.innerHTML=`< source src="${this._sonido}" type="audio/mpeg">`
-
     player.play()
   }
 }
